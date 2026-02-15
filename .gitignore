@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 个人数据（账号登录状态、视频文件等）
+data/browser_state/
+data/videos/
+data/tasks/
+data/config/
+data/videos.json
+
+# 保留 data 目录结构
+!data/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
